@@ -1,0 +1,151 @@
+
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.login_back_container{
+	min-height: 100vh;
+	background: #00cec9;
+}
+
+.error_shower{
+	background: #666;
+}
+
+.form_page_error_text{
+	margin: 0;
+	text-align: center;
+	color: white;
+	padding: 4px;
+}
+
+.login_form_container{
+	width: 500px;
+	min-width: 500px;
+	max-width: 550px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: solid black 2px;
+	border-radius: 5px;
+	padding: 10px;
+	background: white;
+}
+
+.form_title_block{
+	margin-bottom: 25px;
+	border-bottom: solid #079992 2px;
+}
+
+.form_title{
+	margin: 6px 6px 6px 0;
+	padding: 2px 10px;
+	border-left: solid black 2px;
+	line-height: 35px;
+}
+
+.input_block{
+	padding: 2px;
+	font-size: 18px;
+	margin: 10px 0;
+	display: flex;
+}
+
+.input_combiner{
+	display: flex;
+	flex-grow: 10;
+}
+
+.input_text, .input_pass{
+	outline: none;
+	font-size: 18px;
+	border: none;
+	letter-spacing: 1px;
+	padding: 0 0 0 10px;
+	flex-grow: 10;
+	background: transparent;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+	color: rgba(181, 52, 113,1.0);
+}
+
+.input_text{
+
+}
+
+.input_pass{
+
+}
+
+.dob_text{
+	padding: 0 10px;
+}
+
+.user_dob_option{
+	font-size: 18px;
+	color: #34495e;
+}
+
+.user_dob_select{
+	margin: 0 5px;
+	outline: none;
+	border: solid rgba(41, 128, 185,0.6) 2px;
+	border-radius: 4px;
+	padding: 0 5px;
+}
+
+.form_submit_block{
+	text-align: right;
+	padding: 5px 20px 5px 0;
+}
+
+
+
+
+
+
+
+
+
+.back_btn_block{
+	display: inline-block;
+}
+
+.login_create_btn_block{
+	display: inline-block;
+	float: right;
+}
+
+.form_btns9{
+	margin: 20px 0 10px 0;
+	border-top: solid #079992 2px;
+}
+
+.back_btn_link{
+	margin-top: 10px;
+	background: #4a69bd;
+	text-decoration: none;
+	padding: 1px 10px 2px 10px;
+	border-radius: 2px;
+	color: white;
+}
+
+.login_register_btn_link{
+	margin-top: 10px;
+	background: #4a69bd;
+	text-decoration: none;
+	padding: 1px 10px 2px 10px;
+	border-radius: 2px;
+	color: white;
+}
+
+.back_btn_fa{
+	margin-top: 10px;
+}
+

@@ -1,0 +1,156 @@
+/* Site Default Text Style */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------*/
+
+.submit_btn{
+	padding: 3px 15px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #1abc9c;
+	/*box-shadow: 0 0 2px 2px white, 0 0 4px 4px #1abc9c;*/
+	color: white;
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.submit_btn:active{
+	box-shadow: 0 0 2px 2px #2980b9, 0 0 0 0 white;
+}
+
+/*-------------------------------------------------------------*/
+
+.button_next{
+	padding: 3px 15px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #2980b9;
+	box-shadow: 0 0 2px 2px white, 0 0 4px 4px #2980b9;
+	color: white;
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button_next:active{
+	box-shadow: 0 0 2px 2px #e74c3c, 0 0 0 0 white;
+}
+
+/*-------------------------------------------------------------*/
+
+.button_warning{
+	padding: 3px 15px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #e74c3c;
+	box-shadow: 0 0 2px 2px white, 0 0 4px 4px #e74c3c;
+	color: white;
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button_warning:active{
+	box-shadow: 0 0 2px 2px #1abc9c, 0 0 0 0 white;
+}
+
+/*------------------------------------------------*/
+
+.button_red{
+	padding: 8px 25px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #34495e;
+	box-shadow: 0 0 0 2px #f53b57;
+	color: red;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button_red:active{
+	box-shadow: 0 0 0 2px #0fbcf9;
+	color: #0fbcf9;
+}
+
+/*------------------------------------------------*/
+
+.button_white{
+	padding: 8px 25px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #d2dae2;
+	box-shadow: 0 0 0 2px #1e272e;
+	color: #1e272e;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button_white:active{
+	box-shadow: 0 0 0 2px #0fbcf9;
+	color: #0fbcf9;
+}
+
+/*------------------------------------------------*/
+
+.button_blue{
+	padding: 8px 25px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #1e90ff;
+	box-shadow: 0 0 0 2px #1e90ff;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button_blue:active{
+	box-shadow: 0 0 0 2px #303952;
+	color: #303952;
+}
+
+.read_more_t1{
+	padding: 2px 10px;
+	margin: 5px;
+	border: none;
+	outline: none;
+	background: #1e90ff;
+	box-shadow: 0 0 0 2px #1e90ff;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.read_more_t1:active{
+	box-shadow: 0 0 0 2px #fbc531;
+	color: #fbc531;
+}

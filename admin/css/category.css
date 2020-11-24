@@ -1,0 +1,123 @@
+
+
+.admin_category_container{
+	display: block;
+}
+
+.admin_show_category_block{
+	background-color: #c7ecee;
+	border: solid 2px #22a6b3;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.admin_category_title{
+	margin: 0;
+	padding: 4px 20px;
+	font-family: monospace;
+	font-size: 20px;
+	background-color: #01a3a4;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+.category_list_block_head{
+	padding: 8px 0;
+	background-color: rgba(87, 101, 116,1.0);
+	transition: 0.1s;
+	cursor: pointer;
+	color: white;
+}
+
+.category_list_block{
+	padding: 8px 0;
+	background-color: initial;
+	transition: 0.1s;
+}
+
+.category_list_block:hover{
+	background-color: rgba(10, 189, 227,0.6);
+}
+
+.category_counter{
+	margin: 0 15px;
+	font-family: monospace;
+	font-size: 18px;
+	width: 15px;
+	display: inline-block;
+}
+
+.admin_category_id{
+	margin: 0 20px;
+	width: 60px;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.category_list_title_url{
+	margin: 0 20px;
+	width: 200px;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.admin_category_post_counter{
+	margin: 0 20px;
+	width: 100px;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+}
+
+.admin_cat_hover_opts_block{
+	display: none;
+}
+
+.admin_cat_view_posts, .admin_cat_rename, .admin_cat_delete{
+	margin: 0 10px;
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+.admin_cat_delete{
+	color: #c0392b;
+}
+
+#category_list_block_head:hover .admin_cat_hover_opts_block{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cat_action_close_btn_block{
+	display: inline-block;
+	flex-grow: 2;
+	text-align: right;
+}
+
+.cat_action_close_btn_block a{
+	font-size: 22px;
+	margin-right: 20px;
+	color: #c0392b;
+	cursor: pointer;
+	text-decoration: none;
+}

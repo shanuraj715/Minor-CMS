@@ -1,0 +1,71 @@
+
+
+.dash_comment_block{
+	border: solid 1px black;
+	margin: 10px 5px;
+	padding: 10px;
+	background-color: #ecf0f1;
+}
+
+.dash_comment_block:hover{
+	background-color: #bdc3c7;
+}
+
+.dash_comm_title{
+	margin: 0;
+	font-weight: bold;
+	padding: 5px 0;
+	font-size: 18px;
+}
+
+.dash_comm_url{
+	padding: 4px 0;
+	margin: 0;
+	color: #2980b9;
+}
+
+.dash_comm_date{
+	margin: 0 10px 0 0;
+	color: #2c3e50;
+}
+
+.dash_comm_user{
+	margin: 0 10px;
+	color: #2c3e50;
+}
+
+.dash_on_post{
+	margin: 0 10px;
+	color: #2c3e50;
+}
+
+.dash_comm_email{
+	margin: 0 10px;
+	color: #2c3e50;
+}
+
+.dash_comm_status{
+	margin: 0 10px;
+	color: #2c3e50;
+}
+
+.dash_comm_action_block{
+	margin: 10px 0;
+	padding: 0 15px;
+}
+
+.dash_comm_action_approve{
+	background-color: #16a085;
+	color: white;
+	padding: 4px 15px;
+	border: solid 1px black;
+	border-radius: 3px;
+}
+
+.dash_comm_action_unapprove{
+	background-color: #2980b9;
+	color: white;
+	padding: 4px 15px;
+	border: solid 1px black;
+	border-radius: 3px;
+}

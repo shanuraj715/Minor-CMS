@@ -1,0 +1,172 @@
+
+
+
+
+.app_head_cont{
+
+}
+
+.app_head_ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	overflow-x: auto;
+	width: 100%;
+}
+
+.app_head_li{
+	list-style: none;
+	flex-grow: 2;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 0;
+	font-family: monospace;
+	font-size: 17px;
+	font-weight: bold;
+	background: #bdc3c7;
+	transition: 0.2s linear;
+	min-width: 120px;
+	color: black !important;
+}
+
+.app_head_li:hover{
+	background: #95a5a6;
+}
+
+.app_head_active{
+	background: #95a5a6;
+	text-decoration: underline;
+}
+
+.app_head_active a{
+	color: #ecf0f1 !important;
+}
+
+.app_head_li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+
+/* Navigation */
+
+.app_nav_container{
+
+}
+
+.app_nav_block{
+	display: flex;
+	flex-direction: row;
+}
+
+.app_nav_block1{
+	flex-grow: 1;
+	min-width: 400px;
+	margin: 0 5px;
+}
+
+.app_nav_block2{
+	flex-grow: 1;
+	min-width: 400px;
+	margin: 0 5px;
+}
+
+.app_nav_parent_block{
+
+}
+
+.app_nav_ul{
+	display: flex;
+}
+
+.app_nav_li{
+	display: inline-block;
+	flex-grow: 2;
+	max-width: 300px;
+}
+
+.app_nav_parent_edit_link{
+	color: blue;
+	cursor: pointer;
+}
+
+.app_nav_parent_edit_link:hover{
+	color: red;
+}
+
+.app_add_new_nav_block{
+	display: flex;
+	padding: 5px 20px 5px 50px;
+}
+
+.app_add_new_nav_inp{
+	min-width: 200px;
+	max-width: 200px;
+	padding: 3px 8px;
+	border: solid 1px #2f3640;
+	border-radius: 4px;
+	margin: 15px 2px;
+}
+
+.app_add_nav_btn{
+	padding: 3px 18px;
+	border: solid 1px #2f3640;
+	border-radius: 4px;
+	margin: 0 2px;
+}
+
+.navigation_add_block{
+	display: grid;
+	padding: 20px 40px;
+	text-align: center;
+}
+
+.navigation_add_new_done_btn{
+	max-width: 200px;
+	min-width: 200px;
+	padding: 3px 8px;
+	margin: 15px 2px;
+	border: solid 1px black;
+	border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.app_more_opt_cont{
+	margin: 15px;
+}
+
+.app_more_block{
+	margin: 10px 0;
+}
+
+.app_cb{
+
+}
+
+.app_social_btns{
+
+}
+
+.app_footer_ad_block{
+	padding: 0 15px;
+	display: none;
+}
+
+.app_footer_ad_inp{
+	min-width: 450px;
+	min-height: 100px;
+	max-width: 600px;
+	max-height: 150px;
+}
+

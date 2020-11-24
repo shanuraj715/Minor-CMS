@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteBase /
+RewriteRule ^myadmin.* admin/dashboard.php [R=301,L]
+RewriteRule ^post/([0-9a-zA-Z+]) post.php?id=$1&title=$2 [NC,L]
+RewriteRule ^profile/([0-9a-zA-Z+]) userprofile.php?uname=$3 [NC,L]
+
+
+
+DirectoryIndex index.php
+Options -Indexes

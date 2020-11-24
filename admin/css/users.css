@@ -1,0 +1,267 @@
+
+
+
+.users_blocks_container{
+	width: 100%;
+}
+
+.users_add_user_btn_block{
+	margin: 10px 0;
+	margin-bottom: 15px;
+}
+
+.users_add_user_btn_block a{
+	text-decoration: none;
+	color: white;
+	background: rgba(44, 62, 80,1.0);
+	padding: 8px 25px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.u_view_block{
+	overflow-x: auto;
+	background: #dff9fb;
+	border-radius: 5px;
+	border: solid 1px #535c68;
+}
+
+.u_view_head{
+	background: #535c68;
+	padding: 8px 15px;
+	font-size: 17px;
+	font-family: monospace;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	display: flex;
+}
+
+.u_view_data{
+	background: rgba(178, 190, 195,0.5);
+	font-size: 16px;
+	font-family: monospace;
+	padding: 5px;
+	cursor: pointer;
+	padding: 5px 17px;
+	transition: 0.2s linear;
+	align-items: center;
+	display: flex;
+	border-bottom: solid 1px #535c68;
+}
+
+.u_view_data:hover{
+	background: #b2bec3;
+}
+
+.u_view_data:nth-last-of-type(1){
+	border-bottom: none;
+}
+
+.u_name{
+	display: inline-block;
+	width: 130px;
+}
+
+.u_username{
+	display: inline-block;
+	width: 150px;
+}
+
+.u_reg_date{
+	display: inline-block;
+	width: 250px;
+}
+
+.u_role{
+	display: inline-block;
+	width: 120px;
+}
+
+.u_image_head{
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+}
+
+.u_image{
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+}
+
+.u_profile_image{
+	height: 50px;
+}
+
+.u_view_user_details{
+	text-decoration: none;
+	color: black;
+	margin-right: 15px;
+}
+
+.u_view_user_update{
+	text-decoration: none;
+	color: rgba(41, 128, 185,1.0);
+}
+
+.u_view_user_details i{
+	color: #636e72;
+}
+
+
+
+
+
+/* add new user */
+
+.users_add_user_block{
+	border: solid 1px rgba(45, 52, 54,1.0);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.users_add_user_p{
+	margin: 0;
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 15px;
+}
+
+.users_anu_form_block{
+	padding: 5px 18px;
+	display: flex;
+}
+
+.users_anu_form_label{
+	min-width: 150px;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.users_anu_form_block input[type=text], .users_anu_form_block input[type=password]{
+	padding: 2px 5px;
+	letter-spacing: 1px;
+	border: solid 1px rgba(9, 132, 227,1.0);
+	border-radius: 4px;
+	outline: none;
+	min-width: 200px;
+}
+
+.users_age_selector{
+	margin-right: 10px;
+	border: solid 1px rgba(9, 132, 227,1.0);
+	border-radius: 4px;
+	min-width: 40px;
+	padding: 2px 5px;
+}
+
+.users_check_tick{
+	margin: 0 10px;
+	color: rgba(192, 57, 43,1.0);
+}
+
+.users_submit_btn_block{
+	text-align: center;
+	margin: 15px 0;
+}
+
+.users_anu_submit_btn{
+	outline: none;
+	border: solid 2px rgba(9, 132, 227,1.0);
+	border-radius: 5px;
+	padding: 5px 40px;
+	background: rgba(75, 75, 75,1.0);
+	font-size: 17px;
+	font-family: monospace;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+
+
+
+/* manage users */
+
+.users_manage_users_block{
+	border-radius: 5px;
+	border: solid 1px rgba(44, 62, 80,1.0);
+}
+
+.users_mu_p{
+	margin: 10px 0;
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.users_mu_form_block{
+	padding: 10px;
+}
+
+.users_mu_form_row{
+	display: flex;
+	padding: 5px 15px;
+	font-family: monospace;
+	font-size: 17px;
+}
+
+.users_mu_form_row label{
+	display: inline-block;
+	min-width: 200px;
+	font-weight: bold;
+}
+
+.users_mu_form_row input[type=text], .users_mu_form_row input[type=password]{
+
+	font-family: monospace;
+	font-size: 16px;
+	letter-spacing: 1px;
+	padding: 2px 5px;
+	border: solid 1px rgba(41, 128, 185,1.0);
+	border-radius: 5px;
+	min-width: 300px;
+}
+
+.users_mu_image_preview_block{
+	display: flex;
+	margin-left: 200px;
+}
+
+.users_mu_image_block{
+	display: grid;
+	max-width: 150px;
+	margin: 5px 20px;
+}
+
+.users_image_title{
+	margin: 5px 0;
+	text-align: center;
+}
+
+.users_mu_image_block img{
+	max-width: 100%;
+	width: 100%;
+	min-width: 100%;
+	max-height: 100%;
+}
+
+
+
+
+
+/*.mfp-content{
+	width: 95% !important;
+	max-width: 100% !important;
+	max-height: 95vh !important;
+}*/

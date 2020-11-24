@@ -1,0 +1,96 @@
+
+
+
+
+.footer_container{
+	background: #218c74;
+	/*min-width: 1040px;*/
+}
+
+.footer_block1{
+	display: flex;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.footer_center, .footer_right{
+	width: 24%;
+	padding: 6px;
+	text-align: left;
+	display: block !important;
+}
+
+.footer_link_block{
+
+}
+
+.footer_left{
+	width: 48%;
+	padding: 6px;
+	text-align: left;
+}
+
+.footer_center{
+	display: inline-grid;
+}
+
+.footer_right{
+	color: white;
+}
+
+.footer_link{
+	color: white;
+	padding: 0 8px 0 4px;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+.footer_link:hover{
+	color: #18dcff;
+}
+
+.footer_right_text1{
+	margin: 0;
+	line-height: 30px;
+}
+
+.footer_right_text2{
+	margin: 0;
+	line-height: 30px;
+}
+
+.footer_right_text3{
+	display: block;
+	color: white;
+	margin-left: 8px;
+	text-decoration: none;
+
+}
+
+.footer_mobile_block, .footer_email_block{
+	display: flex;
+	padding: 5px 0;
+}
+
+.footer_block2{
+	background: #227093;
+	border-top: solid #cc8e35 2px;
+}
+
+.copyright_text{
+	margin: 0;
+	text-align: center;
+	padding: 8px 0;
+}
+
+
+/* Global CSS */
+
+.border_bottom_1{
+	border-bottom: solid transparent 2px;
+	transition: 0.2s ease-in-out;
+}
+
+.border_bottom_1:hover{
+	border-bottom: solid #cc8e35 2px;
+}

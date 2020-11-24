@@ -1,0 +1,106 @@
+
+
+
+
+
+
+.header_block{
+	display: flex;
+	min-width: 1000px;
+}
+
+.header_left_block{
+	display: inline-block;
+	margin: 5px;
+	overflow: hidden;
+	display: flex;
+	max-height: 85px;
+}
+
+.header_left_block a{
+	text-decoration: none;
+}
+
+.header_left_block a img{
+	width: 170px;
+	max-width: 200px;
+	min-width: 170px;
+	max-height: 85px;
+	border-radius: 4px;
+}
+
+.site_title_desc_block{
+	display: inline-grid;
+	margin-left: 10px;
+	grid-template-rows: 35px;
+}
+
+.site_title_text{
+	color: #333;
+	font-size: 27px;
+	border-left: solid #e67e22 2px;
+	padding: 0 0 0 10px;
+}
+
+.site_desc_text{
+	color: #666;
+	border-left: solid #e67e22 2px;
+	padding: 0 0 0 10px;
+	font-style: 18px;
+}
+
+.header_right_block{
+	display: inline-block;
+	flex-grow: 10;
+	text-align: right;
+	padding: 10px;
+	min-width: 300px;
+}
+
+.header_right_block a{
+	padding: 4px;
+	margin: 0 2px;
+	font-size: 22px;
+	border-bottom: solid transparent 2px;
+	border-bottom-width: 0px;
+	color: #333;
+	transition: 0.2s ease-in-out;
+}
+
+.header_right_block a:hover{
+	border-bottom: solid #8e44ad 2px;
+	padding: 4px 12px;
+	border-bottom-width: initial;
+}
+
+#instagram_logo{
+	color: #e84393;
+}
+
+#facebook_logo{
+	color: #2980b9;
+}
+
+#email_logo{
+	color: #c0392b;
+}
+
+#twitter_logo{
+	color: #3498db;
+}
+
+#google_plus_logo{
+	color: #c0392b;
+}
+
+#youtube_logo{
+	color: #c0392b;
+}
+
+#whatsapp_logo{
+	color: #4cd137;
+}
+
+#link_copy{
+	color: #2f3640;
+}

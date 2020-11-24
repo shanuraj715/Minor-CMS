@@ -1,0 +1,153 @@
+
+
+
+
+.create_post_container{
+	display: flex;
+}
+
+.post_creation_form{
+	display: inline-block;
+	text-align: left;
+	flex-grow: 10;
+	min-width: 750px;
+	background: white;
+}
+
+.post_title_block{
+	text-align: center;
+	margin: 15px 0;
+}
+
+.page_data_block{
+	display: flex;
+}
+
+form.p_form{
+	display: block;
+	width: 100%;
+}
+
+.cp_post_title{
+	max-width: 800px;
+	padding: 10px 5px;
+	width: 800px;
+	font-size: 32px;
+	border-radius: 4px;
+	outline: none;
+	border: solid 2px #2c3e50;
+	font-family: monospace;
+}
+
+.post_writer_block{
+	display: inline-block;
+	overflow: hidden;
+	margin: 20px 0;
+	padding-right: 10px;
+	position: relative;
+}
+
+.cp_post_author{
+	width: 250px;
+	border: solid 2px #2980b9;
+	border-radius: 6px;
+	font-family: monospace;
+	font-size: 18px;
+	min-height: 200px;
+}
+
+.cp_author{
+	background-color: #2c3e50;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.cp_author_list_block{
+	display: flex;
+	padding: 4px;
+	margin: 8px 8px;
+}
+
+/* post create sidebar */
+
+
+
+
+
+
+
+
+/* POST SEO CSS */
+
+.seo_previewer_container{
+	margin: 20px 0;
+	border-radius: 5px;
+	border: solid 2px #16a085;
+}
+
+.cp_seo_options{
+
+}
+
+.cp_seo_header_text{
+	margin: 0;
+	padding: 6px 15px;
+	font-family: monospace;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #2c3e50;
+	color: white;
+}
+
+.cp_seo_opts{
+	padding: 15px;
+	background-color: #ecf0f1;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.cp_seo_1{
+	margin: 14px 0;
+}
+
+.cp_seo_title2, .cp_seo_title1{
+	min-width: 270px;
+	display: inline-block;
+}
+
+.cp_seo_rad_btn{
+
+}
+
+.cp_seo_label{
+	margin-right: 20px;
+}
+
+.cp_seo_inp_txt{
+	border: solid 1px #2980b9;
+	border-radius: 4px;
+	padding: 2px 5px;
+	outline: none;
+	max-width: 450px;
+	flex-grow: 2;
+}
+
+.cp_seo_inp_txt:focus{
+	border: solid 2px #2980b9;
+}
+
+.cp_seo_2{
+	margin: 14px 0;
+	display: flex;
+}
+
+.cp_seo_revisit_select{
+	min-width: 150px;
+	border: solid 2px #2980b9;
+	border-radius: 5px;
+	font-family: monospace;
+	font-size: 18px;
+}
