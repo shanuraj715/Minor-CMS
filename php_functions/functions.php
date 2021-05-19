@@ -33,7 +33,7 @@ function MRES($data){
 }
 
 function cms_head_linking(){ ?>
-	<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL;?>css/fonts-awesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="https://projects.techfacts007.in/fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL;?>css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL;?>css/header.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL;?>css/navigation.css">
