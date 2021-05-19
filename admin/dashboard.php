@@ -10,7 +10,7 @@
 	<meta name="robots" content="noindex,nofollow" />
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache">
-	<link rel="stylesheet" type="text/css" href="../css/fonts-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://projects.techfacts007.in/fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/dashboard.css">
 	<?php include './includes/linker.php'; ?>
 	<title>Dashboard | <?php echo SITE_TITLE; ?></title>
